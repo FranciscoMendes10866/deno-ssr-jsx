@@ -1,0 +1,12 @@
+{
+  "tasks": {
+    "dev": "deno run --watch app/main.ts",
+    "build": "deno compile app/main.ts"
+  },
+  "imports": {
+    "hono": "https://deno.land/x/hono@v3.11.9/mod.ts",
+    "hono/middleware": "https://deno.land/x/hono@v3.11.9/middleware.ts",
+    "hono/streaming": "https://deno.land/x/hono@v3.11.9/jsx/streaming.ts",
+    "hono/helpers": "https://deno.land/x/hono@v3.11.9/helper.ts"
+  }
+}
